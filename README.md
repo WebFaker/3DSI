@@ -7,8 +7,8 @@ Création d'un site de bagues personnalisées, utilisant à la fois de la 3D (Un
 ## Contributeurs :
 
 * Paule HERMAN | @Paulehair - Chef de Projet - Dev. Back-End
-* Bastien GENOUX | @BGenoux - Dev. Back-End
+* Corentin CROIZAT | @CorentinCrz - Dev. Back-End
 * Thomas FRANJA | @ThomasFRANJA - Dev. Front-End
-* Corentin CROIZAT | @CorentinCrz - Dev. Front-End
+* Bastien GENOUX | @BGenoux - Dev. Front-End
 * Nicolas MARTIN | @WebFaker - UI|UX Design
 * Yasmine ADRAR | @YasmineAD - UI|UX Design
