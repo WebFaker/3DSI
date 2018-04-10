@@ -1,0 +1,31 @@
+.Header {
+  z-index: 100;
+  position: fixed;
+  background: transparent;
+  padding-top: 50px;
+  width: 100%;
+  &-logo {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-right: 170px;
+  }
+  &-link {
+    color: #000;
+    margin-right: 70px;
+    font-size: 17px;
+    font-family: 'Roboto';
+    &-white {
+      color: #fff;
+      margin-right: 70px;
+    }
+    &-right {
+      margin-left: 400px;
+      color: #000;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
