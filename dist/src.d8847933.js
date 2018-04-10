@@ -77,7 +77,7 @@ parcelRequire = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({9:[function(require,module,exports) {
+})({14:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -107,7 +107,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],7:[function(require,module,exports) {
+},{}],12:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -138,25 +138,25 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":9}],6:[function(require,module,exports) {
+},{"./bundle-url":14}],11:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":7}],5:[function(require,module,exports) {
+},{"_css_loader":12}],10:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/bg.png":[["bg.30f1b86d.png",,4:[function(require,modu,4:[function(require,module,exports) {
+},{"./../img/bg.png":[["bg.30f1b86d.png",1,9:[function(require,modu,9:[function(require,module,exports) {
 'use strict';
 
 require('flexboxgrid');
 
 require('./styles/styles.scss');
-},{"flexboxgrid":6,",62:[function(require,mod,62:[function(require,module,exports) {
+},{"flexboxgrid":11,".,15:[function(require,mod,15:[function(require,module,exports) {
 
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -186,7 +186,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51307' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '57309' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -322,7 +322,7 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.parcelRequire, id).some(function (id) {
-    return hmrAccept(global.parcelRe,63:[function(require,mod,63:[function(require,module,exports) {
+    return hmrAccept(global.parcelRe,17:[function(require,mod,17:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -401,7 +401,8 @@ LazyPromise.prototype.then = function (onSuccess, onError) {
 
 LazyPromise.prototype.catch = function (onError) {
   if (this.promise === null) this.promise = new Promise(this.executor);
-  return this.promise.catch(onError);,0:[function(require,modu,0:[function(require,module,exports) {
-var b=require(63);
-},{}]},{},[62,0,4])
+  return this.promise.catch(onError);
+,0:[function(require,modu,0:[function(require,module,exports) {
+var b=require(17);
+},{}]},{},[15,0,9])
 //# sourceMappingURL=/src.d8847933.map7933.map
