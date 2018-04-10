@@ -5,6 +5,16 @@
 // mixins
 @import './mixins/forsize';
 
+// components
+@import './components/header';
+@import './components/main';
+@import'./components/footer';
+@import'./components/section';
+
+//font
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -15,5 +25,5 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
 }
