@@ -1,0 +1,45 @@
+body {
+    font-size: 18px;
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ringContainer {
+    width: 33%;
+}
+
+.ringContent {
+    border-top: solid 1px black;
+    width: 80%;
+    padding: 0 10%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ringPrice {
+
+}
+
+.ringAuthor {
+
+}
+
+.ringNameContainer {
+    border-top: solid 1px black;
+    width: 80%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ringName {
+    margin: 5px 0;
+}
+
+.cartIcon {
+
+}
