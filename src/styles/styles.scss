@@ -7,6 +7,11 @@
 
 // components
 @import './components/header';
+
+@import './components/main';
+@import'./components/footer';
+@import'./components/section';
+@import'./components/player';
 @import './components/connexion';
 @import './components/events';
 @import './components/socialmedia';
@@ -26,7 +31,6 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-family: 'Playfair Display', serif;
   font-family: 'Roboto', sans-serif;
 }
