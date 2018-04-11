@@ -1,0 +1,93 @@
+.containt {
+  display: flex;
+}
+
+.Texture {
+  background-image: url(https://cdn.discordapp.com/attachments/433246293922414603/433250330340360192/unknown.png);
+  height: 100%;
+  width: 469px;
+  background-repeat: no-repeat;
+}
+
+.Connexion {
+  width: 469px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  &-container {
+    padding-top: 350px;
+  }
+  &-link {
+    display: block;
+    color: #fff;
+    font-family: 'Roboto';
+    padding-bottom: 30px;
+    font-size: 24px;
+  }
+}
+
+.Formulaire {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 300px;
+  width: 100%;
+  &-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &-title {
+    font-size: 24px;
+    font-family: 'Playfair Display';
+  }
+  &-inputs {
+    margin-top: 30px;
+  }
+  &-item {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    border: 1px solid #000;
+  }
+  &-item2 {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #000;
+  }
+  &-valider {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+
+.Formulaire2 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 250px;
+  width: 100%;
+}
+
+.wrongpass {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #AA0000;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+.warning {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}

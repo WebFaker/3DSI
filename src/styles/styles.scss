@@ -5,6 +5,10 @@
 // mixins
 @import './mixins/forsize';
 
+//components
+@import "./components/header";
+@import "./components/connexion";
+
 * {
   box-sizing: border-box;
 }
