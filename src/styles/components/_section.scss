@@ -1,0 +1,69 @@
+.section{
+  // visibility: hidden;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  font-family: 'Roboto', sans-serif;
+
+  &-container-paragraph{
+    grid-row: 3/5;
+    grid-column: 2/6;
+    z-index: 4;
+    padding: 0 20px;
+    &-text{
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 2;
+      font-weight: 100;
+      letter-spacing: .2em;
+
+    }
+  }
+
+
+  &-container-picture{
+    grid-row: 1/7;
+    grid-column: 4/8;
+    background: url('../img/uibpm.jpg') no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    opacity: 1;
+
+  }
+
+  &-container-picture2{
+    background: url('../img/Texture02.png') no-repeat;
+    background-size: contain;
+    grid-column: 7/12;
+    grid-row: 2/6;
+    padding-top: 100px;
+    padding-left: 100px;
+
+    &-text{
+      font-size: 20px;
+      line-height: 1.5;
+      font-weight: 300;
+      padding: 0 70px;
+      margin-top: 20px;
+      text-align: center;
+
+    }
+    &-button{
+      margin-top: 10%;
+      margin-left: 35%;
+      width: 145px;
+      height: 50px;
+      background-color: #000000;
+      text-align: center;
+      padding-top: 18px;
+
+    }
+    &-item{
+      color: #ffffff;
+      font-size: 14px;
+      font-weight:lighter;
+      text-decoration: none;
+    }
+  }
+
+}
