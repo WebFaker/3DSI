@@ -24,7 +24,7 @@
   &-container-picture{
     grid-row: 1/7;
     grid-column: 4/8;
-    background: url('../img/uibpm.jpg') no-repeat center;
+    // background: url('../img/uibpm.jpg') no-repeat center;
     background-size: cover;
     z-index: 3;
     opacity: 1;
@@ -32,7 +32,7 @@
   }
 
   &-container-picture2{
-    background: url('../img/Texture02.png') no-repeat;
+    // background: url('../img/Texture02.png') no-repeat;
     background-size: contain;
     grid-column: 7/12;
     grid-row: 2/6;
