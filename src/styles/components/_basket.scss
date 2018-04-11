@@ -1,5 +1,6 @@
 .Basket {
   width: 100%;
+
   &-Container {
     margin: 180px auto;
     width: 995px;
@@ -7,6 +8,7 @@
     border: 1px solid #000;
     position: relative;
   }
+
   &-Whitebox {
     border-bottom: 1px solid #fff;
     border-left: 1px solid #fff;
@@ -16,6 +18,7 @@
     height: 483px;
     width: 246px;
   }
+
   &-Title {
     color: #fff;
     text-align: center;
@@ -24,5 +27,17 @@
     width: 17vw;
     margin-top: 35px;
     font-weight: lighter;
+  }
+
+  &-Img {
+    background-color: lightgrey;
+    width: 139px;
+    height: 139px;
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+
+  &-Name {
+    font-size: 22px;
   }
 }
