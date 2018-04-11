@@ -1,55 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-.imgBackground{
-  position:fixed;
-  width: 450px;
-  height: 100vh;
-}
-
-.header{
-  position: relative;
-  padding: 50px 80px 0 80px;
-
-  h1:first-child {
-  color: #FFFFFF;;
-
-}
-
-h1:last-child {
-color: #000000;
-
-}
-
-
-  &-container{
-    display: flex;
-    align-items: center;
-    // justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    font-weight: 200;
+.Header {
+  z-index: 100;
+  position: fixed;
+  background: transparent;
+  padding-top: 50px;
+  width: 100%;
+  &-logo {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-right: 170px;
+  }
+  &-link {
+    color: #000;
+    margin-right: 70px;
     font-size: 17px;
-
-    &-title{
-      display: flex;
-      margin-left: 40px;
+    font-family: 'Roboto';
+    &-white {
+      color: #fff;
+      margin-right: 70px;
     }
-    &-text{
-      padding-left: 100px;
-    }
-
-    &-account{
-      color: red;
-      position: absolute;
-      right: 0;
-      margin-right: 80px;
-    }
-
-
-    &-logo{
-      width: auto;
-      height: 10%;
+    &-right {
+      margin-left: 400px;
+      color: #000;
     }
   }
+}
+
+a {
+  text-decoration: none;
 }

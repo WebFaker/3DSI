@@ -1,0 +1,37 @@
+.Events {
+  margin-top: 200px;
+  z-index: 10;
+  &-Title {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    margin-left: 133px;
+    margin-bottom: 12vh;
+  }
+  &-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-Date {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    margin-left: 240px;
+    text-align: right;
+    width: 10vw;
+    z-index: 2;
+  }
+  &-txt {
+    width: 60vw;
+  }
+  &-Item {
+      font-size: 20px;
+      text-align: left;
+      font-family: 'Roboto';
+      line-height: 23px;
+      margin-bottom: 8vh;
+      margin-left: 10vw;
+    }
+}
