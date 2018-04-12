@@ -16,7 +16,7 @@
       font-size: 30px;
       line-height: 2;
       font-weight: 100;
-      letter-spacing: .2em;
+      letter-spacing: .05em;
 
     }
   }
@@ -29,17 +29,17 @@
     background-size: cover;
     z-index: 3;
     opacity: 1;
-    box-shadow: 10px 10px 25px rgba(151, 151, 151, 0.7);
+    box-shadow: 5px 5px 80px rgba(151, 151, 151, 0.7);
   }
 
   &-container-picture2{
-    background: url('https://cdn.discordapp.com/attachments/433246293922414603/433608371929612288/photo-1482977036925-e8fcaa643657.jpeg') no-repeat;
-    background-size: contain;
+    background: url('https://i.pinimg.com/originals/16/5a/a1/165aa151cd883b5caf8fc6ae75027d62.jpg') no-repeat;
+    background-size: cover;
     grid-column: 7/12;
     grid-row: 2/6;
     padding-top: 100px;
     padding-left: 100px;
-    box-shadow: 10px 10px 25px rgba(151, 151, 151, 0.7);
+    box-shadow: 5px 5px 80px rgba(151, 151, 151, 0.7);
 
     &-text{
       font-size: 20px;
