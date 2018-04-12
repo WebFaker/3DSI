@@ -2,11 +2,12 @@
   width: 100%;
 
   &-Container {
-    margin: 180px auto;
+    margin: 180px auto 0 auto;
     width: 995px;
     height: 483px;
     border: 1px solid #000;
     position: relative;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
   }
 
   &-Whitebox {
@@ -40,18 +41,21 @@
   &-Box {
     width: 68vw;
     font-family: 'Roboto';
+    display: flex;
   }
 
   &-Info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 49vw;
+    width: 48vw;
     font-size: 22px;
+    margin-top: 10px;
   }
 
   &-Name {
     text-align: left;
+    margin-bottom: 10px;
   }
 
   &-Qte {
@@ -60,16 +64,31 @@
 
   &-Txt {
     font-size: 20px;
+    margin-bottom: 10px;
   }
 
   &-Info3 {
     display: flex;
     justify-content: space-between;
-    width: 49vw;
+    width: 48vw;
   }
 
   &-Price {
     font-size: 25px;
     font-weight: bold;
+  }
+
+  &-Paidbox {
+    background-color: #000;
+    width: 100px;
+    height: 50px;
+    margin-left: 1118px;
+    z-index: 10;
+  }
+  &-Paid {
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    z-index: 11
   }
 }
