@@ -4,6 +4,7 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 100px);
   font-family: 'Roboto', sans-serif;
+  padding-top: 125px;
 
   &-container-paragraph{
     grid-row: 3/5;
@@ -15,7 +16,7 @@
       font-size: 30px;
       line-height: 2;
       font-weight: 100;
-      letter-spacing: .2em;
+      letter-spacing: .05em;
 
     }
   }
@@ -24,20 +25,21 @@
   &-container-picture{
     grid-row: 1/7;
     grid-column: 4/8;
-    // background: url('../img/uibpm.jpg') no-repeat center;
+    background: url('https://cdn.discordapp.com/attachments/433246293922414603/433608335078588427/uibpm.jpg') no-repeat center;
     background-size: cover;
     z-index: 3;
     opacity: 1;
-
+    box-shadow: 5px 5px 80px rgba(151, 151, 151, 0.7);
   }
 
   &-container-picture2{
-    // background: url('../img/Texture02.png') no-repeat;
-    background-size: contain;
+    background: url('https://i.pinimg.com/originals/16/5a/a1/165aa151cd883b5caf8fc6ae75027d62.jpg') no-repeat;
+    background-size: cover;
     grid-column: 7/12;
     grid-row: 2/6;
     padding-top: 100px;
     padding-left: 100px;
+    box-shadow: 5px 5px 80px rgba(151, 151, 151, 0.7);
 
     &-text{
       font-size: 20px;

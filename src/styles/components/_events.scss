@@ -4,10 +4,10 @@
   &-Title {
     color: #fff;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'Playfair Display';
     font-weight: lighter;
     margin-left: 133px;
-    margin-bottom: 12vh;
+    margin-bottom: 7vh;
   }
   &-box {
     display: flex;
@@ -22,6 +22,7 @@
     text-align: right;
     width: 10vw;
     z-index: 2;
+    line-height: 2;
   }
   &-txt {
     width: 60vw;
@@ -30,7 +31,7 @@
       font-size: 20px;
       text-align: left;
       font-family: 'Roboto';
-      line-height: 23px;
+      line-height: 2;
       margin-bottom: 8vh;
       margin-left: 10vw;
     }

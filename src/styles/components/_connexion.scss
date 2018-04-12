@@ -3,15 +3,17 @@
 }
 
 .Texture {
-  // background-image: url('../img/bg.png');
+  background-image: url('https://cdn.discordapp.com/attachments/433246293922414603/433901319116554240/dark-metal-texture.jpg');
   height: 100%;
   width: 469px;
   background-repeat: no-repeat;
   position: fixed;
   z-index: 0;
+  margin-left: -1px;
 }
 
 .ConnexionG {
+  font-family: 'Playfair Display';
   width: 469px;
   text-align: center;
   margin-left: auto;
@@ -22,7 +24,6 @@
   &-link1 {
     display: block;
     color: #fff;
-    font-family: 'Roboto';
     padding-bottom: 30px;
     font-size: 24px;
     z-index: 1000;
@@ -30,7 +31,6 @@
   &-link2 {
     display: block;
     color: #fff;
-    font-family: 'Roboto';
     padding-bottom: 30px;
     font-size: 24px;
     z-index: 100000;
@@ -55,6 +55,7 @@
     margin-top: 30px;
   }
   &-item {
+    padding: 0 10px;
     width: 300px;
     height: 30px;
     margin-bottom: 25px;
@@ -62,6 +63,7 @@
     border: 1px solid #000;
   }
   &-item2 {
+    padding: 0 10px;
     width: 300px;
     height: 30px;
     margin-bottom: 10px;
